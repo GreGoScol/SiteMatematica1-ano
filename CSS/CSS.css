@@ -1,0 +1,90 @@
+/* 
+
+Aprendi CSS (daquele jeito mas aprendi) eu devo ganhar uns pontinhos extras né, hmmm, HMMMMMM ...
+
+*/
+
+/*--POSICIONAMENTO--*/
+.center{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.Elinhas{
+    line-height: 10px;
+}
+.Tletratitulo{
+    font-size: 60px;
+}
+.fonte{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    display: block;
+    margin: auto;
+}
+
+/*--CORES--*/
+.Flaranja{
+    background-color: rgb(255, 136, 0);
+}
+.Fpreto{
+    background-color: black;
+}
+.Lbranca{
+    color: white;
+}
+.Lpreta{
+    color: black;
+}
+.Fcinzaescuro{
+    background-color: rgb(34, 34, 34);
+}
+.Fcinzaclaro{
+    background-color: rgb(80, 80, 80);
+}
+.Lcomment{
+    color: rgb(75, 148, 75);
+}
+.Lpode{
+    color: lawngreen;
+}
+.Lnpode{
+    color: red;
+}
+/*--MESMA LINHA--*/
+.ML { display: inline-block; }
+
+/* Botões do kraio
+
+2 SEMANAS PRA EU ACHAR ALGUEM QEU SOUBESE COMO ALINHAR ESSAS DESGRÇA COMO EU QUERIA AHHHHHHHHH
+
+*/
+.flex-parent {
+    display: flex;
+
+  }
+  
+  .jc-center {
+    justify-content: center;
+  }
+  
+  button.margin-right {
+    margin-right: 20px;
+  }
+  .setinha{
+    cursor: pointer;
+  }
